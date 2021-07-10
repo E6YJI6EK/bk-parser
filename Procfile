@@ -1,0 +1,1 @@
+worker: python bk_bot.py
