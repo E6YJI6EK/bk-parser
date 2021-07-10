@@ -24,7 +24,6 @@ pooch==1.4.0
 pycparser==2.20
 PyInstaller==3.3.1
 pyparsing==2.4.7
-pypiwin32==223
 PyQt5==5.15.4
 pyqt5-plugins==5.15.4.2.1.0
 PyQt5-Qt5==5.15.2
@@ -33,7 +32,6 @@ pyqt5-tools==5.15.4.3.0.3
 pyqtdeploy==3.1.1
 python-dotenv==0.17.1
 pyttsx3==2.90
-pywin32==223
 qt5-applications==5.15.2.2.1
 qt5-tools==5.15.2.1.0.1
 requests==2.25.1
