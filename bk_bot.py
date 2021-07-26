@@ -39,42 +39,4 @@ for event in longpoll.listen():
             write_msg(event.user_id, "конец сообщения")
             time.sleep(hour * 4)
 
-            # result = 'ИВЧТ \n № | Балл | ФИО | Приоритет | Согласие на другие напр-я \n'
-            # for index, item in enumerate(sorted(data, reverse=True), 1):
-            #     if item[1] != 'Нуржанов Айшат Бердагалиевич':
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[3] + '\n'
-            #     else:
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[
-            #             3] + '\n' + "КОНЕЦ"
-            #         break
-            # write_msg(event.user_id, result)
-            # data = p.parse_data(p.ifst_domain)
-            # result = 'ИФСТ \n № | Балл | ФИО | Приоритет | Согласие на другие напр-я \n'
-            # for index, item in enumerate(sorted(data, reverse=True), 1):
-            #     if item[1] != 'Нуржанов Айшат Бердагалиевич':
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[3] + '\n'
-            #     else:
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[
-            #             3] + '\n' + "КОНЕЦ"
-            #         break
-            # write_msg(event.user_id, result)
-            # data = p.parse_data(p.pinf_domain)
-            # result = 'ПИНФ \n № | Балл | ФИО | Приоритет | Согласие на другие напр-я \n'
-            # for index, item in enumerate(sorted(data, reverse=True), 1):
-            #     if item[1] != 'Нуржанов Айшат Бердагалиевич':
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[3] + '\n'
-            #     else:
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[
-            #             3] + '\n' + "КОНЕЦ"
-            #         break
-            # write_msg(event.user_id, result)
-            # data = p.parse_data(p.pinzh_domain)
-            # result = 'ПИНЖ \n № | Балл | ФИО | Приоритет | Согласие на другие напр-я \n'
-            # for index, item in enumerate(sorted(data, reverse=True), 1):
-            #     if item[1] != 'Нуржанов Айшат Бердагалиевич':
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[3] + '\n'
-            #     else:
-            #         result += str(index) + ' ' + item[0] + ' ' + item[1] + ' ' + item[2] + ' ' + item[
-            #             3] + '\n' + "КОНЕЦ"
-            #         break
-            # write_msg(event.user_id, result)
+
