@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup as bs
 import requests
 
-ivcht_domain = 'https://abitur.sstu.ru/vpo/direction/2021/66/b/o/b'
-ifst_domain = 'https://abitur.sstu.ru/vpo/direction/2021/68/b/o/b'
-pinf_domain = 'https://abitur.sstu.ru/vpo/direction/2021/70/b/o/b'
-pinzh_domain = 'https://abitur.sstu.ru/vpo/direction/2021/71/b/o/b'
+ivcht_domain = 'https://abitur.sstu.ru/vpo/direction/2021/33/b/o/b'
+ifst_domain = 'https://abitur.sstu.ru/vpo/direction/2021/35/b/o/b'
+pinf_domain = 'https://abitur.sstu.ru/vpo/direction/2021/37/b/o/b'
+pinzh_domain = 'https://abitur.sstu.ru/vpo/direction/2021/38/b/o/b'
 domains = {'ИВЧТ': ivcht_domain, 'ИФСТ': ifst_domain, 'ПИНФ': pinf_domain, 'ПИНЖ': pinzh_domain}
 error_msg = "Не могу сделать запрос на сервер"
 
@@ -36,3 +36,8 @@ def get_data():
             yield key, sorted(data, reverse=True)
         else:
             return error_msg
+
+
+# for i in get_data():
+#     print(i)
+
